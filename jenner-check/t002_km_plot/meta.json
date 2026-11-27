@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_km_plot",
+  "source_file": "CI_KM_plots.sas",
+  "source_blob_sha": "b2b529b8ea48f0319ccdce062734933ecb8b23a1",
+  "source_commit": "39f5c6eb47a2db266e0fb0c2c97bf7b8734c9416",
+  "notes": "Plot macro (verbatim), type=km branch, called on a 12-row mock follow-up dataset with exposure, event and IPTW weight; no analysis logic edited"
+}

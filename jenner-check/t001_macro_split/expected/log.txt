@@ -1,0 +1,34 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA WORK.CODES
+
+NOTE: Processing inline DATALINES (3 lines)
+
+NOTE: The data set WORK.CODES has 3 observations and 2 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: DATA WORK.TEMP_1
+
+
+NOTE: There were 3 observations read from the data set WORK.CODES.
+NOTE: The data set WORK.TEMP_1 has 6 observations and 3 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.CODES_LONG
+
+
+NOTE: There were 6 observations read from the data set WORK.TEMP_1.
+NOTE: The data set WORK.CODES_LONG has 6 observations and 2 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC DELETE datasets=temp_1
+
+NOTE: Deleting WORK.TEMP_1 (memtype=DATA).
+NOTE: PROC PRINT data=WORK.CODES_LONG
+
+NOTE: PROC PRINT completed: 6 observations printed, 2 variables

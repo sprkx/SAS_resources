@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_macro_split",
+  "source_file": "Macro.sas",
+  "source_blob_sha": "b2a23ae82959bdcbdd9046a127cf5e0907ed1d49",
+  "source_commit": "39f5c6eb47a2db266e0fb0c2c97bf7b8734c9416",
+  "notes": "SPLIT macro (verbatim) called on a 3-row inline dataset with '|'-delimited codes; no analysis logic edited"
+}

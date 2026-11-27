@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-11-27T10:32:11.380660Z",
+  "_captured_run_id": "r_3a06f4b5f92d491a97e02437801043de",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC LIFETEST completed.",
+    "NOTE: The data set WORK.SURV_1 has 6 observations and 11 variables.",
+    "NOTE: The data set WORK.TEST_OUT1 has 3 observations and 5 variables."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

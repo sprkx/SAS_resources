@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-11-27T10:32:11.381322Z",
+  "_captured_run_id": "r_0d536aea73e94e40a1a32828a6d436ac",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table WORK.EVENTS_COHORT created.",
+    "NOTE: PROC PRINT completed: 3 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

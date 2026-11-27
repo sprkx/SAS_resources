@@ -1,0 +1,11 @@
+                                                   The Jenner System               10:31 Friday, November 27, 2026     1
+
+                                                Obs    patid    medcodes
+
+                                                 1     P001        a
+                                                 2     P001        b
+                                                 3     P001        c
+                                                 4     P002        d
+                                                 5     P003        e
+                                                 6     P003        f
+

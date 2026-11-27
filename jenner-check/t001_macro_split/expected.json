@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-11-27T10:32:11.379832Z",
+  "_captured_run_id": "r_534205cb13904a1785271c292c191d4b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: The data set WORK.CODES_LONG has 6 observations and 2 variables.",
+    "NOTE: PROC PRINT completed: 6 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

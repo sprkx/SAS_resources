@@ -1,0 +1,57 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA WORK.FU
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: The data set WORK.FU has 12 observations and 5 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.TEMP_1
+
+
+NOTE: There were 12 observations read from the data set WORK.FU.
+NOTE: The data set WORK.TEMP_1 has 12 observations and 6 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC LIFETEST data=WORK.TEMP_1
+
+NOTE: OUTSURV dataset 'WORK.SURVIVAL_DATA' written.
+NOTE: ODS OUTPUT: SurvivalPlot written to 'WORK.TEMP_2'.
+NOTE: ODS OUTPUT: HomTests written to 'WORK.TEMP_TEST'.
+NOTE: ODS plot written: ./ods_output/survival_strata.svg
+NOTE: PROC LIFETEST completed.
+NOTE: ODS Graphics settings reset to defaults.
+NOTE: ODS Graphics image-name index reset.
+NOTE: ODS Graphics is ON (format=PNG).
+NOTE: PROC SGPLOT data=WORK.TEMP_2
+
+NOTE: PROC SGPLOT output written to: ./ods_output/CI_itt_out1.png
+NOTE: DATA WORK.SURV_1
+
+
+NOTE: There were 6 observations read from the data set WORK.TEMP_2.
+NOTE: The data set WORK.SURV_1 has 6 observations and 11 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.TEST_OUT1
+
+
+NOTE: There were 3 observations read from the data set WORK.TEMP_TEST.
+NOTE: The data set WORK.TEST_OUT1 has 3 observations and 5 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC DELETE datasets=temp_1 temp_2 temp_test
+
+NOTE: Deleting WORK.TEMP_1 (memtype=DATA).
+NOTE: Deleting WORK.TEMP_2 (memtype=DATA).
+NOTE: Deleting WORK.TEMP_TEST (memtype=DATA).
+NOTE: PROC PRINT data=WORK.SURV_1
+
+NOTE: PROC PRINT completed: 6 observations printed, 11 variables
+NOTE: PROC PRINT data=WORK.TEST_OUT1
+
+NOTE: PROC PRINT completed: 3 observations printed, 5 variables

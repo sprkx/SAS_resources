@@ -1,0 +1,8 @@
+                                                   The Jenner System               10:32 Friday, November 27, 2026     1
+
+                                           Obs    patid    eventdate    code
+
+                                            1     1001     05JAN2020     A1
+                                            2     1003     20MAR2020     A1
+                                            3     1001     19MAY2020     B2
+
